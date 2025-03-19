@@ -3,7 +3,7 @@ import { PropsWithChildren } from "react";
 export const HeroOrbit = ({
   children,
   size,
-  rotation,
+  rotation=0,
 }: PropsWithChildren<{ size?: number; rotation?: number }>) => {
   return (
     <div>
