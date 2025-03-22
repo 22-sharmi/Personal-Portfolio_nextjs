@@ -18,7 +18,7 @@ import FramerIcon from "@/assets/icons/framer-motion.svg";
 import GitIcon from "@/assets/icons/github.svg";
 import ExcelIcon from "@/assets/icons/excel.svg";
 import { TechIcon } from "@/components/TechIcon";
-import mapImage from "@/assets/images/my-map.png";
+import mapImage from "@/assets/images/My-map.png";
 import smileMemoji from "@/assets/images/memoji-avatar-4.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
