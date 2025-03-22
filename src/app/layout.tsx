@@ -3,6 +3,7 @@ import { Inter, Calistoga } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({
   subsets: ["latin"],
@@ -11,9 +12,25 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with Next.js and TailwindCSS",
+  title: "Sharmila's Portfolio",
+  description: "Full Stack Web Developer | Next.js, Tailwind CSS, MongoDB",
+  openGraph: {
+    title: "Sharmila's Portfolio",
+    description: "Building dynamic web experiences with Next.js & Tailwind CSS.",
+    url: "https://sharmi-personal-portfolio-22.vercel.app/",
+    siteName: "Sharmila's Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sharmila's Portfolio - Full Stack Developer",
+      },
+    ],
+    type: "website",
+  },
 };
+
 
 export default function RootLayout({
   children,
