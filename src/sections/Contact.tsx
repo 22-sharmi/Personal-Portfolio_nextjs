@@ -1,7 +1,17 @@
+"use client";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 
 export const ContactSection = () => {
+  const handleEmailClick = () => {
+    const email = "sharmilakumaravel22@gmail.com";
+    const subject = encodeURIComponent("Project Collaboration Inquiry");
+    const body = encodeURIComponent(
+      `Hello Sharmila,\n\nI came across your portfolio and I'm interested in collaborating on a project. Let's discuss further!\n\nLooking forward to your response.\n\nBest regards,`
+    );
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+  };
+
   return (
     <div id="contact" className="py-16 pt-12 lg:py-24 lg:pt-20">
       <div className="container">
@@ -20,7 +30,10 @@ export const ContactSection = () => {
                 discuss how I can help you bring your vision to life.
               </p>
             </div>
-            <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 whitespace-nowrap border border-gray-900">
+            <button
+              onClick={handleEmailClick}
+              className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 whitespace-nowrap border border-gray-900"
+            >
               <span className="font-semibold">Contact Me</span>
               <ArrowUpRightIcon className="size-4" />
             </button>
