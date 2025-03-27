@@ -1,8 +1,8 @@
 import ZidioLogo from "@/assets/images/zidio_development_logo.jpg";
 import StanLogo from "@/assets/images/stan-ventureLogo.jpg";
-import YoutubeLogo from "@/assets/images/youtube-logo.png";
-import AppleLogo from "@/assets/images/apple-logo-.png";
-import ZentryLogo from "@/assets/images/zentry_logo.jpg";
+// import YoutubeLogo from "@/assets/images/youtube-logo.png";
+// import AppleLogo from "@/assets/images/apple-logo-.png";
+// import ZentryLogo from "@/assets/images/zentry_logo.jpg";
 import Image from "next/image";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
@@ -33,39 +33,39 @@ const experiences = [
     ],
     logo: StanLogo,
   },
-  {
-    company: "Personal Project - YouTube Clone",
-    position: "Full Stack Developer",
-    duration: "2024",
-    achievements: [
-      "Developed a video streaming platform with React, Node.js, and MongoDB.",
-      "Implemented user authentication and video upload functionality.",
-      "Integrated video quality selection and gesture-based controls for an improved viewing experience.",
-    ],
-    logo: YoutubeLogo,
-  },
-  {
-    company: "Personal Project - Apple Website",
-    position: "Frontend Developer",
-    duration: "2025",
-    achievements: [
-      "Developed an interactive Apple website with smooth 3D animations using GSAP.",
-      "Implemented parallax scrolling effects for an engaging user experience.",
-      "Optimized the website for high performance and responsiveness.",
-    ],
-    logo: AppleLogo,
-  },
-  {
-    company: "Personal Project - Zentry Game Website",
-    position: "Frontend Developer",
-    duration: "2025",
-    achievements: [
-      "Built a visually immersive game website with 3D animations using React Three Fiber.",
-      "Designed interactive UI elements and dynamic transitions for an engaging feel.",
-      "Implemented a seamless user experience with optimized animations and layout.",
-    ],
-    logo: ZentryLogo,
-  },
+  // {
+  //   company: "Personal Project - YouTube Clone",
+  //   position: "Full Stack Developer",
+  //   duration: "2024",
+  //   achievements: [
+  //     "Developed a video streaming platform with React, Node.js, and MongoDB.",
+  //     "Implemented user authentication and video upload functionality.",
+  //     "Integrated video quality selection and gesture-based controls for an improved viewing experience.",
+  //   ],
+  //   logo: YoutubeLogo,
+  // },
+  // {
+  //   company: "Personal Project - Apple Website",
+  //   position: "Frontend Developer",
+  //   duration: "2025",
+  //   achievements: [
+  //     "Developed an interactive Apple website with smooth 3D animations using GSAP.",
+  //     "Implemented parallax scrolling effects for an engaging user experience.",
+  //     "Optimized the website for high performance and responsiveness.",
+  //   ],
+  //   logo: AppleLogo,
+  // },
+  // {
+  //   company: "Personal Project - Zentry Game Website",
+  //   position: "Frontend Developer",
+  //   duration: "2025",
+  //   achievements: [
+  //     "Built a visually immersive game website with 3D animations using React Three Fiber.",
+  //     "Designed interactive UI elements and dynamic transitions for an engaging feel.",
+  //     "Implemented a seamless user experience with optimized animations and layout.",
+  //   ],
+  //   logo: ZentryLogo,
+  // },
 ];
 
 export const ExperienceSection = () => {

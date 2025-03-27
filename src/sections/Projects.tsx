@@ -2,6 +2,7 @@ import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import appleWebsite from "../assets/images/Apple website.png";
 import resumeWebsite from "@/assets/images/Resume website.png";
 import gameWebsite from "@/assets/images/Game Website.png";
+import mockMateWebsite from "@/assets/images/mock_mate_website.png";
 import Link from "next/link";
 import Image from "next/image";
 import CheckCircleIcon from "../assets/icons/check-circle.svg";
@@ -45,6 +46,20 @@ const portfolioProjects = [
     ],
     link: "https://animated-game-website.vercel.app",
     image: gameWebsite,
+  },
+  {
+    company: "Personal Project",
+    year: "2025",
+    title: "Mock Mate Website",
+    results: [
+      { title: "Built an AI-powered voice-based interview preparation platform" },
+      { title: "Integrated Vapi to enable realistic voice interviews" },
+      { title: "Implemented Firebase authentication and database for user progress tracking" },
+      { title: "Designed an intuitive UI using Tailwind CSS for seamless interaction" },
+      { title: "Optimized real-time audio processing for a smooth experience" },
+    ],
+    link: "https://ai-interview-prep-website.vercel.app/",
+    image: mockMateWebsite,
   },
 ];
 
